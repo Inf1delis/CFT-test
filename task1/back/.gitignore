@@ -1,0 +1,5 @@
+**/.idea
+**/init
+**/tmp
+**/__pycache_
+**/.gitignore_

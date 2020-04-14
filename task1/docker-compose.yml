@@ -1,0 +1,23 @@
+version: '3'
+
+services:
+  cft_back:
+    build: 
+      context: ./back
+      dockerfile: ./deploy/Dockerfile
+    container_name: cft_back
+    ports:
+      - 8001:8001
+    restart: always
+
+  cft_front:
+    build:
+      context: ./front
+      dockerfile: ./deploy/Dockerfile
+    container_name: cft_front
+    restart: unless-stopped
+    ports:
+      - 9090:8080
+    depends_on:
+      - cft_back
+
