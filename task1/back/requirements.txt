@@ -17,7 +17,7 @@ matplotlib==3.2.1
 multidict==4.7.5
 numba==0.48.0
 numpy==1.18.2
-Pillow==7.0.0
+Pillow==9.0.0
 pycparser==2.20
 pydub==0.23.1
 pyparsing==2.4.6
