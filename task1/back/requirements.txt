@@ -16,7 +16,7 @@ llvmlite==0.31.0
 matplotlib==3.2.1
 multidict==4.7.5
 numba==0.48.0
-numpy==1.18.2
+numpy==1.22.0
 Pillow==7.0.0
 pycparser==2.20
 pydub==0.23.1
